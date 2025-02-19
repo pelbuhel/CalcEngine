@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -24,12 +26,12 @@ public class Main {
                 results[index] = secondValue[index] != 0 ? firstValue[index] / secondValue [index]: 0.0d;
                 break;
             default:
-                System.out.println("Invalid opCode: " + opCodes);
+                System.out.println("Invalid opCode: " + opCodes[index]);
                 results[index] = 0.0d;
                 break;
             }
         }
-        System.out.println(results);
+        System.out.println(Arrays.toString(results));
 
 //        if (opCode == 'a')
 //            result = value1 + value2;
