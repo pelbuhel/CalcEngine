@@ -2,6 +2,8 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
+        String poo = "poo";
+
 
         double[] firstValue = {100.0d, 25.0d, 225.0d, 11.0d};
         double[] secondValue = {50.0d, 92.0d, 17.0d, 3.0d};
